@@ -1,0 +1,91 @@
+.row{
+    display: flex;
+}
+.col{
+    width: 25%;
+    height: 200px;
+}
+.col1{
+    background: url(../IMG/builder2.jpg);
+    background-position: center;
+    background-size: cover
+
+}
+.col2{
+    background: url(../IMG/builder.png);
+    background-position: center;
+    background-size: cover;
+}
+.col3{
+    background: url(../IMG/IMG_0134.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col4{
+    background: url(../IMG/IMG_0258.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.row2{
+    display: flex;
+}
+.col5{
+    background: url(../IMG/IMG_0364.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col6{
+    background: url(../IMG/IMG_2276.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col7{
+    background: url(../IMG/IMG_2278.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col8{
+    background: url(../IMG/IMG_2279.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.row3{
+    display: flex;
+}
+.col9{
+    background: url(../IMG/IMG_2280.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col10{
+    background: url(../IMG/Img_2/IMG_2337.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col11{
+    background: url(../IMG/Img_2/IMG_2338.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.col12{
+    background: url(../IMG/Img_2/IMG_2339.JPG);
+    background-position: center;
+    background-size: cover;
+}
+/* responsiveness */
+@media screen and (max-width:600px) {
+    .row{
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .row3{
+        flex-direction: column;
+    }
+
+}
